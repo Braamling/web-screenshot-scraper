@@ -1,0 +1,17 @@
+.cover {
+    position : absolute;
+    top : 0px; bottom : 0px; left : 0px; right : 0px;
+    background-color: white;
+    z-index: 2147483582;
+    opacity : 0;
+}
+.highlight {
+	color: red !important;
+	background-color: red !important;
+    position: relative !important;
+    z-index: 2147483583 !important;
+}
+
+body {
+    overflow:hidden;
+}
